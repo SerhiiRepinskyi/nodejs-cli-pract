@@ -1,11 +1,6 @@
 const checkExtension = (fileName) => {
   const EXTENSIONS = ["txt", "js", "json", "html", "css"];
 
-    // {
-  //     extension
-  //     result
-  // }
-
   const lastDotIndex = fileName.lastIndexOf(".");
   const fileExtension = fileName.slice(lastDotIndex + 1);
 

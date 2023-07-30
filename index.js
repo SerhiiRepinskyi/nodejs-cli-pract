@@ -1,8 +1,6 @@
-// index.js
 const argv = require("yargs").argv;
 const { createFile, getFiles, getInfo } = require("./files");
 
-// TODO: рефакторити
 function invokeAction({ action, fileName, content }) {
   switch (action) {
     case "create":
